@@ -19,7 +19,7 @@ const HaveControl = () => {
 
             {/* Right Side - Text Content */}
             <div className='flex flex-col justify-center'>
-              <h4 className='text-[#F857A6] font-bold mb-4 uppercase'>
+              <h4 className='text-[#F857A6] mb-4 uppercase'>
                 Have perfect control
               </h4>
               <h2 className='mb-4 text-[#343F52] text-[40px] font-bold'>

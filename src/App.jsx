@@ -6,6 +6,7 @@ import HaveControl from './Components/HaveControl/HaveControl'
 import MakeDifferent from './Components/MakeDiffernt/MakeDifferent'
 import Community from './Components/Community/Community'
 import Footer from './Components/Footer/Footer'
+import LatestProjects from './Components/LatestProjects/LatestProjects'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <Features />
       <HaveControl/>
+      <LatestProjects/>
       <MakeDifferent/>
       <Community/>
       <Footer/>

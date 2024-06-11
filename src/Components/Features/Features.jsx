@@ -14,7 +14,7 @@ const Features = () => {
         needs.
       </h2>
       {/* 6 needs */}
-      <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-center items-center place-items-center gap-8 ml-11 mb-11'>
+      <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-center items-center place-items-center gap-8 ml-11 mr-11 mb-11'>
         {/* 1 */}
         <div>
           <div className='flex gap-3'>
@@ -62,13 +62,13 @@ const Features = () => {
         </div>
         {/* 4 */}
         <div>
-        <div className='flex gap-3'>
+          <div className='flex gap-3'>
             <img src={wireless} />
             <h3 className='text-[#343F52] font-semibold lg:text-[22px] mb-3'>
-            Wireless Networking
-          </h3>
+              Wireless Networking
+            </h3>
           </div>
-       
+
           <p>
             Duis mollis gravida commodo id luctus erat <br></br> porttitor
             ligula, eget lacinia odio sem aget elit<br></br> nullam quis risus
@@ -77,14 +77,13 @@ const Features = () => {
         </div>
         {/* 5 */}
         <div>
-        <div className='flex gap-3'>
+          <div className='flex gap-3'>
             <img src={it} />
             <h3 className='text-[#343F52] font-semibold lg:text-[22px] mb-3'>
-            IT Solutions
-          </h3>
+              IT Solutions
+            </h3>
           </div>
-       
-       
+
           <p>
             Duis mollis gravida commodo id luctus erat <br></br> porttitor
             ligula, eget lacinia odio sem aget elit<br></br> nullam quis risus
@@ -93,15 +92,13 @@ const Features = () => {
         </div>
         {/* 6 */}
         <div>
-          
-        <div className='flex gap-3'>
+          <div className='flex gap-3'>
             <img src={server} />
             <h3 className='text-[#343F52] font-semibold lg:text-[22px] mb-3'>
-            Server Configuration
-          </h3>
+              Server Configuration
+            </h3>
           </div>
-       
-                    
+
           <p>
             Duis mollis gravida commodo id luctus erat <br></br> porttitor
             ligula, eget lacinia odio sem aget elit<br></br> nullam quis risus

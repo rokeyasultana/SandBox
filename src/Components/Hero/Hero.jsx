@@ -28,11 +28,11 @@ const Hero = () => {
             </div>
 
             {/* Right Side - image */}
-            <div className='flex items-center justify-center '>
+            <div className='flex  items-center justify-center image '>
               <img
                 src='https://i.ibb.co/8Mj09f8/3d6-png.png'
                 alt='Example'
-                className='w-full h-auto rounded-lg mb-[-180px]'
+                className='w-[450px] h-[500px] rounded-lg mb-[-280px]'
               />
             </div>
           </div>
