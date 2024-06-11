@@ -3,7 +3,7 @@ import hero2 from '../../assets/hero2.png'
 import { TbPointFilled } from "react-icons/tb";
 const HaveControl = () => {
   return (
-    <div>
+  
       <div>
         <section className='container mt-24  mx-auto p-8 '>
           <div className='grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-6'>
@@ -61,7 +61,7 @@ const HaveControl = () => {
           </div>
         </section>
       </div>
-    </div>
+
   )
 }
 
