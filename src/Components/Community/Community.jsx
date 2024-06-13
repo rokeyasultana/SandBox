@@ -12,7 +12,7 @@ const Community = () => {
         <p className='mb-5 text-[#F857A6] mt-11 uppercase'>
           Join Our Community
         </p>
-        <p className='mb-11 font-semibold text-[text-#343F52] text-[30px]'>
+        <p className='mb-11 font-semibold text-[#343F52] text-[30px]'>
           We are trusted by over 5000+ clients.<br></br> Join them now and grow
           your business.
         </p>

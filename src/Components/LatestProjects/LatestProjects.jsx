@@ -20,10 +20,10 @@ const LatestProjects = () => {
 
   return (
     <div>
-      <h4 className='text-center uppercase mb-5 mt-24 text-[#F857A6]'>
+      <h4 className='text-center uppercase mb-5 mt-20 text-[#F857A6]'>
         Latest Projects
       </h4>
-      <h2 className='text-center mb-11 text-[38px] font-bold'>
+      <h2 className='text-center text-[#343F52] mb-11 text-[38px] font-bold'>
         Check out some of our awesome projects<br></br> with{' '}
         <span className='underline decoration-[#F857A6]'>creative</span> ideas
         and great design

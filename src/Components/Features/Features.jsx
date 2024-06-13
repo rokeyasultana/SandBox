@@ -9,7 +9,7 @@ const Features = () => {
   return (
     <div>
       <h4 className='text-center mb-5 mt-24 text-[#F857A6]'>OUR FEATURES</h4>
-      <h2 className='text-center mb-11 text-[38px] font-bold'>
+      <h2 className='text-center mb-11 text-[#343F52] text-[38px] font-bold'>
         The service we offer is specifically<br></br>designed to meet your
         needs.
       </h2>
@@ -48,7 +48,7 @@ const Features = () => {
         {/* 3 */}
         <div>
           <div className='flex gap-3'>
-            <img src={networking} />
+            <img src={cloud} />
             <h3 className='text-[#343F52] font-semibold mb-3 lg:text-[22px]'>
               Cloud Services
             </h3>

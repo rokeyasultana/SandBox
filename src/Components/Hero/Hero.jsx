@@ -13,7 +13,7 @@ const Hero = () => {
           <div className='grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-6'>
             {/* Left Side - content */}
             <div className='flex flex-col justify-center'>
-              <h2 className='text-[38px] sm:text-3xl font-bold mb-4'>
+              <h2 className='text-[40px] text-[#343F52] font-bold mb-4'>
                 Networking <span className='text-[#F857A6]'>solution</span> for
                 <br></br>
                 worldwide communication
@@ -31,7 +31,7 @@ const Hero = () => {
             <div className='flex  items-center justify-center image'>
               <img
                 src='https://i.ibb.co/8Mj09f8/3d6-png.png'
-                alt='Example'
+                alt=''
                 className='w-full h-auto rounded-lg lg:mb-[-80px]'
               />
             </div>
