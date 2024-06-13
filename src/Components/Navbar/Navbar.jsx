@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className='mb-11'>
-      <div class='bg-white shadow  shadow-purple-500/20'>
-        <div class='container mx-auto px-4'>
-          <div class='flex items-center justify-between py-4'>
+      <div className='bg-white shadow shadow-purple-500/20'>
+        <div className='container mx-auto px-4'>
+          <div className='flex items-center justify-between py-4'>
             <div>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
-                class='w-10 h-10 text-purple-600'
+                className='w-10 h-10 text-purple-600'
                 viewBox='0 0 24 24'
               >
                 <path
@@ -19,64 +25,64 @@ const Navbar = () => {
               </svg>
             </div>
 
-            <div class='hidden sm:flex sm:items-center'>
+            <div className='hidden sm:flex sm:items-center'>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
               >
                 Demos
               </a>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
               >
-             Pages
+                Pages
               </a>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
               >
                 Projects
               </a>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
               >
-               Blog
+                Blog
               </a>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
               >
-               Blocks
+                Blocks
               </a>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
               >
-               Documentation
+                Documentation
               </a>
             </div>
 
-            <div class='hidden sm:flex sm:items-center'>
+            <div className='hidden sm:flex sm:items-center'>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
               >
                 Sign in
               </a>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-purple-600 hover:border-purple-600'
+                className='text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-purple-600 hover:border-purple-600'
               >
                 Sign up
               </a>
             </div>
 
-            <div class='sm:hidden cursor-pointer'>
+            <div className='sm:hidden cursor-pointer' onClick={toggleMenu}>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
-                class='w-6 h-6 text-purple-600'
+                className='w-6 h-6 text-purple-600'
                 viewBox='0 0 24 24'
               >
                 <path
@@ -87,42 +93,54 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div class='block sm:hidden bg-white border-t-2 py-2'>
-            <div class='flex flex-col'>
+          <div id='mobile-menu' className={`sm:hidden bg-white border-t-2 py-2 ${menuOpen ? 'block' : 'hidden'}`}>
+            <div className='flex flex-col'>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
               >
-                Products
+                Demos
               </a>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
               >
-                Marketplace
+                Pages
               </a>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
               >
-                Partners
+                Projects
               </a>
               <a
                 href='#'
-                class='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
               >
-                Pricing
+                Blog
               </a>
-              <div class='flex justify-between items-center border-t-2 pt-2'>
+              <a
+                href='#'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
+              >
+                Blocks
+              </a>
+              <a
+                href='#'
+                className='text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1'
+              >
+                Documentation
+              </a>
+              <div className='flex justify-between items-center border-t-2 pt-2'>
                 <a
                   href='#'
-                  class='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
+                  className='text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4'
                 >
                   Sign in
                 </a>
                 <a
                   href='#'
-                  class='text-gray-800 text-sm font-semibold border px-4 py-1 rounded-lg hover:text-purple-600 hover:border-purple-600'
+                  className='text-gray-800 text-sm font-semibold border px-4 py-1 rounded-lg hover:text-purple-600 hover:border-purple-600'
                 >
                   Sign up
                 </a>
@@ -132,7 +150,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

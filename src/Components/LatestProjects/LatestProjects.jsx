@@ -28,7 +28,7 @@ const LatestProjects = () => {
         <span className='underline decoration-[#F857A6]'>creative</span> ideas
         and great design
       </h2>
-      <div className='px-12 mt-11 mb-20 ml-20 mr-20'>
+      <div className='px-12 mt-11 mb-20 ml-16 mr-11'>
      
         <Slider {...settings}>
           <div>

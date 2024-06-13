@@ -5,7 +5,7 @@ const HaveControl = () => {
   return (
   
       <div>
-        <section className='container mt-24  mx-auto p-8 '>
+        <section className='container mt-24  mx-auto mr-20 '>
           <div className='grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-6'>
             {/* Left Side - Image */}
 

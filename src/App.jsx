@@ -7,6 +7,7 @@ import MakeDifferent from './Components/MakeDiffernt/MakeDifferent'
 import Community from './Components/Community/Community'
 import Footer from './Components/Footer/Footer'
 import LatestProjects from './Components/LatestProjects/LatestProjects'
+import './App.css';
 
 const App = () => {
   return (

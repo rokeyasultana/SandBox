@@ -4,7 +4,7 @@ import makeUs from '../../assets/makeUs.png'
 const MakeDifferent = () => {
   return (
     <div>
-      <section className='container   mx-auto p-8'>
+      <section className='container ml-20 p-8'>
         <div className='mt-20 grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 justify-center items-center place-items-center gap-6'>
           {/* Left Side - text content */}
 
